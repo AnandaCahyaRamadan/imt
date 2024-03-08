@@ -1,5 +1,5 @@
 <div class="bg-nav">
-    <div class="container p-1">
+    <div class="container p-2">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h2 class="text-white mb-0 fw-bold">SPK</h2>
@@ -30,7 +30,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="dropdown d-lg-none">
+        <div class="dropdown d-lg-none d-md-none">
             <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png" alt="" width="30px">
                 Admin
             </button>

@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\Aktifitas;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Aktivitas;
 use Illuminate\Database\Seeder;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
-class AktifitasSeeder extends Seeder
+class AktivitasSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,13 +15,13 @@ class AktifitasSeeder extends Seeder
      */
     public function run()
     {
-        $aktifitas = [
+        $aktivitas = [
             ['nama' => 'Sedang'],
             ['nama' => 'Berat'],
         ];
 
-        foreach ($aktifitas as $value) {
-            Aktifitas::create($value);
+        foreach ($aktivitas as $value) {
+            Aktivitas::create($value);
         }
     }
 }

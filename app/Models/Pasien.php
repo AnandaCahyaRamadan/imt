@@ -5,13 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Aktifitas extends Model
+class Pasien extends Model
 {
     use HasFactory;
 
-    protected $table = 'aktifitas';
+    protected $table = 'pasien';
     protected $primaryKey = 'id';
     protected $fillable = [
-        'nama',
+        'kode',
+        'alternatif'
     ];
 }
